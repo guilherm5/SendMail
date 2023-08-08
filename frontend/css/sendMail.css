@@ -29,25 +29,27 @@ h1 {
 
 .sec-principal {
     display: flex;
+    flex-direction: row;
 }
 
-.div-sec-sec {
-    display: flex;
-}
+
 
 .div-textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #message {
     border: 1px solid black;
     border-radius: 10px;
     margin: 5px;
+    width: 100%;
 }
 
 input {
+    
     border-radius: 10px;
     border: 1px solid black;
     padding: 15px;
@@ -72,5 +74,7 @@ input {
 }
 
 #input-assunto {
-    width: 90%;
+    
+    width: 90%; /* Ajustar a largura conforme necessário */
+
 }
