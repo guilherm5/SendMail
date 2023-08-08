@@ -1,0 +1,48 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container-cadastro {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: rgb(34, 138, 249) 0px 1px 2px 0px, rgb(34, 138, 249) 0px 2px 6px 2px;
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+#input-enviar {
+    width: 96%;
+    transition: 0.5s;
+    /* Tempo de atraso antes da transição */
+}
+
+#input-enviar:hover {
+    background-color: rgb(34, 138, 249);
+}
+
+.span-conta {
+    margin-left: 8px;
+}

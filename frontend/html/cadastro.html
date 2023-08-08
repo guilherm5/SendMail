@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Usuario</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
+    <section id="container-cadastro">
+        <form id="form-cadastro">
+            <h1>Cadastre-se</h1>
+            <div id="div-input">
+                <input type="text" name="nome" id="input-nome" placeholder="Nome">
+            </div>
+
+            <div id="div-input">
+                <input type="email" name="email" id="input-email" placeholder="Email">
+            </div>
+
+            <div id="div-input">
+                <input type="password" name="senha" id="input-senha" placeholder="Senha">
+            </div>
+
+            <div id="div-input">
+                <input type="submit" autocomplete="off" name="enviar" id="input-enviar" value="Enviar">
+            </div>
+            <span class="span-conta"><a href="login.html">Já tem uma conta ?</a> </span>
+        </form>
+    </section>
+
+    <script src="../js/cadastro.js"></script>
+</body>
+
+</html>

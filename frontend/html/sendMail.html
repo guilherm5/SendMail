@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Mail</title>
+    <link rel="stylesheet" href="../css/sendMail.css">
+</head>
+
+<body>
+
+    <section id="container-sendmail">
+        <form id="form-sendmail">
+            <h1>Envie seu Email</h1>
+            <div class="sec-principal">
+                <div id="div-input-principal">
+                    <input type="email" name="from" id="input-from" placeholder="Remetente">
+                </div>
+
+                <div id="div-input-principal">
+                    <input type="email" name="to" id="input-to" placeholder="Destinatario">
+                </div>
+            </div>
+
+            <div id="div-input-assunto">
+                <input type="text" name="assunto" id="input-assunto" placeholder="Assunto">
+            </div>
+
+            <div class="div-textarea">
+                <textarea name="message" id="message" cols="53" rows="10"></textarea>
+            </div>
+
+            <div id="div-input">
+                <input type="submit" autocomplete="off" name="enviar" id="input-enviar" value="Enviar">
+            </div>
+            <span class="span-conta"><a class="span-conta" href="cadastro.html">Não tem uma conta ?</a> </span>
+        </form>
+    </section>
+
+    <script src="../js/sendMail.js"></script>
+</body>
+
+</html>
